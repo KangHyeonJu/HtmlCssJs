@@ -55,6 +55,9 @@ nav {
     text-shadow: 0 1px #07c;
     padding: 20px 60px;
 }
+#topMenu > li > a > span {
+    font-size: 0.5em;
+}
 #topMenu > li >a:hover {
     color: #000;
     text-shadow: 0 -1px #07c;
