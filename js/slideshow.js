@@ -18,17 +18,17 @@ function prevSlide() {
     if(current > 0) {
         current -= 1;
     }
-    else{
-        current = slides.length - 1;
-        showSlides(current);
+    else {
+        current = (slides.length - 1);
     }
+    showSlides(current);
 }
 function nextSlide() {
-    if (current < slides.length -1) {
+    if (current < (slides.length -1)) {
         current += 1;
     }
-    else{
+    else {
         current = 0;
-        showSlides(current);
     }
+    showSlides(current);
 }
